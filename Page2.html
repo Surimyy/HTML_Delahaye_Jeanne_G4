@@ -36,11 +36,13 @@
         <!--Bandeau indiquant sur quel page on se trouve-->
 
         <section class="d-flex flex-column gap-40">
+            <!-- flex de la section et on cré un ecart 'gap-40' de 4à pixel avec la prochaine section-->
             <div class="d-flex flex-column gap-20" id="interface">
                 <p>
-                    Ce mode de jeu est celui par défaut <br><br>
+                    Ce mode de jeu est celui par défaut <br><br> <!-- saut a la ligne -->
                     Le but est simple , suivre les cercles au rythme de la musique <br><br>
-                    <span>L'interface se présente sous cette forme</span>
+                    <span>L'interface se présente sous cette
+                        forme</span>><!-- on met a part cette zone de text pour ensuite la mettre en évidence grace au css-->
                 </p>
                 <img class="align-self-center" src="Img/Interface_osu.jpg" alt="image interface osu" id="image">
                 <p>
@@ -56,6 +58,7 @@
                 </p>
 
                 <img class="align-self-center" src="Img/STANDARD/accurency.PNG" alt="image interface osu" id="image">
+                <!-- on fait en sorte que seul l'image soit au centre de la page , et non pas toute la div-->
 
             </div>
             <div class="d-flex flex-column gap-20 ">
@@ -64,6 +67,7 @@
                     Le cercle simple :
                 </p>
                 <img src="Img/STANDARD/cercle.png" alt="image cercle simple" class="bg-grey-circle " id="cercle">
+                <!-- on met un fond gris foncé et avec des bord rond pour pouvori mieux voir l'image qui est moins visible sans cela -->
                 <p>Il suffit de cliquer 1 fois pour avoir les points <br><br>
                     Le slider:</p>
                 <img src="Img/STANDARD/slider.png" alt="image d'un slider" class="bg-grey-circle " id="slider">
@@ -91,6 +95,7 @@
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="align-self-center"></iframe>
+                <!-- lien vers une video youtube (en non répertorié) pour montré a quoi peux ressemblé une max de stream-->
                 <p><span>Les Jumps :</span></p>
                 <iframe width="700" height="500" src="https://www.youtube.com/embed/NFVd5tQHmE8" title="Jump-Osu"
                     frameborder="0"
@@ -137,6 +142,7 @@
         <section class="d-flex p-20 flex-column color-white ">
             <h4 class="m-20">Les liens utiles</h4>
             <a class="color-white-grey m-20" href="https://osu.ppy.sh/home/download"> Downlaod Osu!</a>
+            <!-- lien vers la page de Osu!-->
             <a class="color-white-grey m-20" href="https://osu.ppy.sh/beatmapsets"> Chercher des beatmaps pour Osu!</a>
 
         </section>

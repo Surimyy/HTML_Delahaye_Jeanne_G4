@@ -35,9 +35,9 @@
         </section>
 
         <form action="Merci.html" id="questionnaire">
+            <!-- création d'un formulaire qui renvoie ensuite sur une page qui remercie la personne d'avoir répondu-->
 
-
-            <label for="niveau">votre niveau de jeu :</label>
+            <label for="niveau">votre niveau de jeu :</label> <!-- question a choix multiple-->
             <select name="niveau" id="pay">
                 <option value="votre niveau de jeu">Selectionnez votre niveau de jeu </option>
                 <option value="1">1 etoile</option>
@@ -54,7 +54,7 @@
             <br>
 
 
-            <label for="gameplay">Votre type de gameplay préféré</label>
+            <label for="gameplay">Votre type de gameplay préféré</label> <!-- checkbox-->
             <input type="checkbox" name="gameplay" id="Jump" value="Jump">Jump
             <input type="checkbox" name="gameplay" id="Stream" value="Stream">Stream
             <input type="checkbox" name="gameplay" id="Reading" value="Reading">Reading
@@ -63,12 +63,12 @@
             <br>
 
 
-            <label for="present">Que pensez-vous de ce site?</label>
-            <textarea name="presentation" id="present" rows="5" cols="60" maxlength="350"> </textarea>
+            <label for="avis">Que pensez-vous de ce site?</label><!--zone de texte avec limite de caractère (350) -->
+            <textarea name="avis" id="avis" rows="5" cols="60" maxlength="350"> </textarea>
             <br>
             <br>
 
-            <label for="envoyer">Envoyer votre formulaire:</label>
+            <label for="envoyer">Envoyer votre formulaire:</label><!-- bouton pour envoyé le formulaire-->
             <input type="submit" name="" id="envoyer">
             <br>
             <br>

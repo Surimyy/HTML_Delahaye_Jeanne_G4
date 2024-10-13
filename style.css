@@ -4,37 +4,28 @@
     padding: 0;
 }
 
-
-/* Petits appareils (mobiles en portrait) */
-@media only screen and (max-width: 480px) {}
-
-/*Appareils mobiles (petit à moyen) +   Appareils mobiles (petit à moyen)*/
-@media only screen and (max-width: 767px) {
-
-    #img-header {
-        display: none;
+@media (max-width:768px) {
+    span {
+        font-size: small;
     }
 
-    .w-50 {
-        width: 100%;
-        text-align: center;
+    .bande {
+        height: 150px;
     }
+
+    h3 {
+        font-size: 15px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
 }
-
-/* Appareils mobiles (petit à moyen) */
-@media only screen and (min-width: 481px) and (max-width: 767px) {}
-
-/*Tablettes*/
-@media only screen and (min-width: 768px) and (max-width: 1024px) {}
-
-
-
-/*Ordinateurs portables / Écrans moyens*/
-@media only screen and (min-width: 1025px) and (max-width: 1200px) {}
-
-/*Grands écrans*/
-@media only screen and (min-width: 1201px) {}
-
 
 .d-flex {
     display: flex;
@@ -238,49 +229,55 @@ span {
     font-style: italic;
 }
 
-#cercle{
+#cercle {
     width: 10%;
 }
 
-#slider{
+#slider {
     width: 40%;
 }
 
-#image{
+#image {
     width: 40%;
-    
+
 }
-.gap-40{
+
+.gap-40 {
     gap: 40px;
 }
-.gap-20{
+
+.gap-20 {
     gap: 20px;
 }
 
-.align-self-center{
+.align-self-center {
     align-self: center;
 }
 
-.font-size-x-large{
+.font-size-x-large {
     font-size: large;
 }
 
-.color-white-grey{
+.color-white-grey {
     color: rgb(165, 165, 165);
 }
 
-#en-grand{
+#en-grand {
     font-size: 90px;
 }
 
-#note-longue{
+#note-longue {
     width: 10%;
 }
-#note-courte{
+
+#note-courte {
     width: 10%;
     height: 10%;
 }
 
 
-table, th, td { 
-    border: 1px solid black; }
+table,
+th,
+td {
+    border: 1px solid black;
+}
